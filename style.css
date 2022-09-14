@@ -27,12 +27,36 @@ fieldset input{
     height: 33px;
     width: 100%;
     margin-top: 4px;
-    text-shadow: .2px 1px #070649e7;
-    margin-left: ;
+    transition: all .4s;
+
 }
 
 fieldset input:hover{
     top: 1em;
+    margin-left: 3px;
+    box-shadow: 1.4px 1.7px 8px gray;
 }
 
+fieldset textarea:hover{
+    top: 1em;
+    margin-left: 3px;
+    box-shadow: 1.4px 1.7px 8px gray;
+    border: none;
+}
+
+fieldset ::placeholder{
+    color: rgba(0, 0, 244, 0.2);
+    padding: 2px;
+
+}
+
+button{
+    line-height: 21px;
+    padding: 3px 4px;
+    width: 71px;
+    margin: 0 2px;
+    border-radius: 3px;
+    border: none;
+    
+}
 
