@@ -1,16 +1,18 @@
 body{
-    background-color: azure;
+    background-color: rgb(166, 230, 230);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
     margin: 1em 1em;
     width: 100%;
     height: 100vh;
+    margin-left: 111px;
 }
 
 fieldset{
     width: 20%;
     height: 70%;
     border-radius: 7px;
+    background-color: rgb(174, 125, 221);
 
 }
 
@@ -34,13 +36,14 @@ fieldset input{
 fieldset input:hover{
     top: 1em;
     margin-left: 3px;
-    box-shadow: 1.4px 1.7px 8px gray;
+    box-shadow: 1.4px 1.7px 8px rgb(231, 139, 139);
+    
 }
 
 fieldset textarea:hover{
     top: 1em;
     margin-left: 3px;
-    box-shadow: 1.4px 1.7px 8px gray;
+    box-shadow: 1.4px 1.7px 8px rgb(231, 139, 139);
     border: none;
 }
 
@@ -48,6 +51,10 @@ fieldset ::placeholder{
     color: rgba(0, 0, 244, 0.2);
     padding: 2px;
 
+}
+
+fieldset legend{
+    
 }
 
 button{
