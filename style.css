@@ -64,6 +64,19 @@ button{
     margin: 0 2px;
     border-radius: 3px;
     border: none;
+    transition: translate 1s;
     
+}
+
+.enviar:hover{
+    margin-bottom: 3px;
+    box-shadow: 1.4px 1.7px 14px rgb(231, 139, 139);
+    background: linear-gradient(rgba(0, 0, 244, 0.2), rgba(112, 112, 233, 0.658));
+}
+
+.limpar:hover{
+    margin-bottom: 3px;
+    box-shadow: 1.4px 1.7px 14px rgb(231, 139, 139);
+    background: linear-gradient(rgba(0, 0, 244, 0.2), rgba(112, 112, 233, 0.658));
 }
 
