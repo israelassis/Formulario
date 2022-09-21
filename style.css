@@ -54,7 +54,7 @@ body .list{
 
 
 body .list li{
-
+    list-style: none;
     margin: 1em;
     padding: 1em;
     border: none;
