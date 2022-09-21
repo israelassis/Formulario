@@ -22,7 +22,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+body *{
+    border: 1px solid black;
+}
 header {
     grid-area: header;
     background-color: red;
@@ -43,11 +45,18 @@ footer {
     background-color: purple;
 }
 
-body aside li{
-    color: red;
+body .list{
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+body .list li{
+
     margin: 1em;
-    padding: 1rem;
+    padding: 1em;
     border: none;
     background-color: rgb(224, 141, 224);
     box-shadow: 1px 1.2px 2px rgb(43, 42, 42);
