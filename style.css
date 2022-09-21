@@ -17,6 +17,9 @@ body{
         grid-auto-rows: auto;
         grid-template-columns: repeat(3, 1fr);
     border-radius: 1rem;
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -38,4 +41,26 @@ aside {
 footer {
     grid-area: footer;
     background-color: purple;
+}
+
+body aside li{
+    color: red;
+    display: flex;
+    margin: 1em;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(224, 141, 224);
+    box-shadow: 1px 1.2px 2px rgb(43, 42, 42);
+}
+body aside li:hover{
+    transform: scale(1.17);
+    border-radius: 7px;
+    background-color: plum;
+}
+
+body .link {
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+
 }
