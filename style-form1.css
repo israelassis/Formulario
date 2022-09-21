@@ -67,20 +67,38 @@ button{
     border-radius: 3px;
     border: none;
     transition: translate 1s;
-    
+    color: purple;
+    font-weight: 700;
+    text-transform: uppercase;    
 }
 
  
 .enviar:hover{
-    margin-bottom: 3px;
     box-shadow: 1.4px 1.7px 14px rgb(231, 139, 139);
     background: linear-gradient(rgba(0, 0, 244, 0.2), rgba(112, 112, 233, 0.658));
-    transform: perspective(1px);
+    transform: scale(1.2);
 }
 
 .limpar:hover{
     margin-bottom: 3px;
     box-shadow: 1.4px 1.7px 14px rgb(231, 139, 139);
     background: linear-gradient(rgba(0, 0, 244, 0.2), rgba(112, 112, 233, 0.658));
+    transform: scale(1.2);
+
+}
+
+.voltar {
+    border: none;
+    background: linear-gradient(rgb(231, 139, 139), rgba(112, 112, 233, 0.658));
+    height: 31px;
+    width: 71px;
+    box-shadow: 1px 1px 3px black;
+    margin-left: 231px;
+    text-decoration: none;
+}
+
+.voltar:hover{
+    transform: scale(1.2);
+
 }
 
