@@ -55,17 +55,20 @@ body .list{
 
 body .list li{
     list-style: none;
+    background: red;
     margin: 1em;
     padding: 1em;
     border: none;
     background-color: rgb(224, 141, 224);
-    box-shadow: 1px 1.2px 2px rgb(43, 42, 42);
+    box-shadow: 7px 7px 7px 1.3px rgb(43, 42, 42);
 }
 body aside li:hover{
-    transform: scale(1.17);
     border-radius: 7px;
     background-color: plum;
+    box-shadow: 4px 4px 4px 1.3px rgb(226, 77, 77);
+    transform: translateX(1px) rotate(7deg) translateY(5px)
 }
+
 
 body .link {
     text-transform: uppercase;
