@@ -52,6 +52,10 @@ body .list{
     align-items: center;
 }
 
+::selection {
+    background-color: #00ff94;
+    color: #44c;
+}
 
 body .list li{
     list-style: none;
@@ -75,4 +79,20 @@ body .link {
     color: #000000;
     text-decoration: none;
 
+}
+
+h1 {
+    background-image: url(./istockphoto-1026451648-170667a.jpg);
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h1:hover {
+    text-shadow: 
+1px 1px 3px #ccc,
+-1px -1px 1.7px #333,
+-3px 3px 3px #555
 }
