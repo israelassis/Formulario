@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #dc143c;
+    padding: 9px 19px;
+    border-radius: 4.9px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 8px 0 #ec2d43;
+    transition: all 0.2s;
+    
+}
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 4px 0 #dc143c;
+}
